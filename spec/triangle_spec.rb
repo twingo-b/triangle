@@ -1,6 +1,7 @@
 require 'spec_helper'
 require File.expand_path(File.dirname(__FILE__) + '/../triangle')
 
+# TODO: テスト整理する
 describe Triangle do
   describe 'pre_condition?' do
     specify { expect(Triangle.new([0, 0, 0]).pre_condition?).to be_falsey }
