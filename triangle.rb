@@ -1,8 +1,9 @@
 class Triangle
   def initialize(argv)
-    @args_a = argv[0]
-    @args_b = argv[1]
-    @args_c = argv[2]
+    normalized_argv = argv.map { |s| s.is_a?(String) ? s.gsub(/,$/, '').to_i : s }
+    @args_a = normalized_argv[0]
+    @args_b = normalized_argv[1]
+    @args_c = normalized_argv[2]
   end
 
   def pre_condition?
@@ -42,5 +43,5 @@ class Triangle
 end
 
 if __FILE__ == $0
-  Triangle.new(ARGV.map { |s| s.gsub(/,$/, '').to_i }).detect
+  Triangle.new(ARGV).detect
 end
