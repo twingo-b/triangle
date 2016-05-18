@@ -6,3 +6,7 @@ rvm:
 # uncomment and edit the following line if your project needs to run something other than `rake`:
 # script: bundle exec rspec spec
 
+addons:
+  code_climate:
+    repo_token:
+      secure: "B9tnzAbl7aFZHYcn4JIXQYJ+loDRyb74PpjXRPCbNPoxYb0/USsr2xwjUpbxMQGSZ6evVhztojGXdGYVxQ1ZMiAFFbl5ZZR0StHP6CbOlztVJjEAijJyML/M79xXdVbohGAxp/V0E4/uu7ZvWxy+OdRurEXt2Lfj3X0GHv3rJkvcuUByTButVNQl5DBonoaqVFpNU8y6bg11mMjxmpoVYCvO8vGArh038h/hSY1CUCcuSENVXQ4YaKzYRNdnbOGJUFCs1VeMIBTXW9ErHJps5jFQVwNLhBmHsIN/UZaA3/dc1/ncYVc2Q8/JQcjwJTxj1ybaBKDH2YYkO2PVDwVEZRx0ALHRlffDCZD+86dX+T80o7J6Fu2me+Yfztqr82E0pSUF5j7QOsd+TsazUt6vbKKePUDIMrO/7WH3E82papFBSGXCACF19rXjncskl/HSDhvEKN+dvm29+jBOWgvyegF8VGLXuXg+e5BaK0jpfJWgKkX5LaTYvfWm5NmqNpunvYbq5akxullRzvPA4dR4SAlET7TBY/p1rgM7fHeJSFz/kG9yj5xaFWw9Xp03PKsfWXH6nMJZiC7k5wSLEtRlt5o35Xoc6yFH7E9vTtExi+F2RItFwBUZXrOpBINnSBnZJ1usZhmp02LBPZ1jM1HdNCLVg9xhUTwJ7bnbVNzpT20="
