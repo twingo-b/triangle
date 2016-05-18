@@ -4,6 +4,7 @@ ruby "2.2.3"
 
 gem "rspec"
 
-group :test do
+group :development, :test do
   gem "rake"
+  gem "rubocop", require: false
 end
