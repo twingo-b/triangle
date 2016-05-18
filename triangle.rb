@@ -6,7 +6,7 @@ class Triangle
   end
 
   def pre_condition?
-    [@args_a, @args_b, @args_c].find_all{ |n| n.is_a?(Numeric) && (n > 0) }.length == 3
+    [@args_a, @args_b, @args_c].find_all { |n| n.is_a?(Numeric) && (n > 0) }.length == 3
   end
 
   # 三角不等式: 三角形の 2 辺の長さの和は残りの 1 辺の長さよりも大きい
@@ -42,5 +42,5 @@ class Triangle
 end
 
 if __FILE__ == $0
-  Triangle.new(ARGV.map{ |s| s.gsub(/,$/,'').to_i }).detect
+  Triangle.new(ARGV.map { |s| s.gsub(/,$/, '').to_i }).detect
 end
