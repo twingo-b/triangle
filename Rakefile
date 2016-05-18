@@ -1,9 +1,7 @@
 task :default => [:spec]
 begin
   require 'rubocop/rake_task'
-  RuboCop::RakeTask.new(:rubocop) do |rubocop|
-    rubocop.options = ['-l']
-  end
+  RuboCop::RakeTask.new(:rubocop)
 end
 
 begin
