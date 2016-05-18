@@ -1,4 +1,4 @@
-task :default => [:rubocop, :spec]
+task :default => [:spec]
 begin
   require 'rubocop/rake_task'
   RuboCop::RakeTask.new(:rubocop) do |rubocop|
